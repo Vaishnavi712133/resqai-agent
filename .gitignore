@@ -1,0 +1,43 @@
+# ===========================
+# ResQAI .gitignore
+# ===========================
+
+# Environment Variables
+.env
+.env.*
+
+# Node.js
+node_modules/
+
+# Slack Local Files
+.slack/
+
+# Claude Code
+.claude/
+.claude/*.local.json
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+dist/
+coverage/
+
+# Local OAuth / Session Data
+data/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
